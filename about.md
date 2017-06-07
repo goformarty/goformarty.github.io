@@ -2,14 +2,18 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+A driven developer in the early stages of her career who made a switch from Architecture to Programming.
 
-### More Information
+A girl with her fingers in many creative pies, passionate about technology, design and architecture. Not afraid of working outside the comfort zone or getting her hands dirty. An avid learner, restless problem-solver, thinker and doer, who knows when to follow the trailblazers and when to tune them out and blaze her own trail. 
 
-A place to include any other types of information that you'd like to include about yourself.
+No mega ego, no primadonna, no pretentious attitude. 
+Totally on the ball.
 
-### Contact me
+### Instagram
 
-[email@domain.com](mailto:email@domain.com)
+Follow Marty's coding journey on instagram: 
+[@codingcouple](https://www.instagram.com/codingcouple/)
+
