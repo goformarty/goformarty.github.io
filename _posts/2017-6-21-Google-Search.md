@@ -1,4 +1,7 @@
-## What happens when you click search on google.com ?
+---
+layout: post
+title: What happens when you click search on google.com ?
+---
 
 To understand what happens when we Google something, we need to dig deeper and follow the process from the other end.
 
