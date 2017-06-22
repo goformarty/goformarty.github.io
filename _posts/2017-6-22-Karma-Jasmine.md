@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BDD with Karma and Jasmine
+title: TDD with Karma and Jasmine
 published: true
 ---
 
@@ -60,4 +60,20 @@ When starting Karma, the configuration file path can be passed in as the first a
 ````
 $ karma start my.conf.js
 ```
+
+### Understanding TDD
+TDD stands for for Test-Driven Development.
+
+Here's TDD in its simpliest form:
+1. Write your tests
+2. Watch them fail
+3. Make them pass
+4. Refactor
+5. Repeat
+
 ### Adding tests
+After installing Karma we are provided with a *test* directory - this is where we should put all our test specs.
+
+Let's start with the simplest hello world test to see Karma and Jasmin in action.
+1. Create hello.js in test folder
+2.
