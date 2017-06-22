@@ -76,4 +76,24 @@ After installing Karma we are provided with a *test* directory - this is where w
 
 Let's start with the simplest hello world test to see Karma and Jasmin in action.
 1. Create hello.js in test folder
-2.
+2. Make sure your test file - hello.js is included in Karma config file. You can open my.conf.js file and add test/hello.js or test/*.js or **/*.js etc.
+&nbsp;
+For example:
+    ```
+    // list of files / patterns to load in the browser
+         files: [
+         'test/hello.js'
+        ],
+    ```
+3. Jasmine tests are primarily two parts: describe blocks and it blocks. Following Jasmine syntax and TDD rules, let's write simple test that is going to fail.
+    ```
+    describe ("test", function(){
+      it ("should work", function(){
+        var test = true;
+        expect(test).toBe(false);
+      });
+    });
+    ```
+
+4. Karma presents the test results in the specified captured browser (open when karma start my.conf.js was run) and command line. Right now we should have 1 FAILED TEST.
+5. To see the details of the error, we can open the Debug tool in the browser,
