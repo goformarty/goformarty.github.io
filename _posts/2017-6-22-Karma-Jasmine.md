@@ -73,6 +73,7 @@ Here's TDD in its simpliest form:
 4. Refactor
 5. Repeat
 &nbsp;
+&nbsp;
 
 ### Adding tests
 After installing Karma we are provided with a *test* directory - this is where we should put all our test specs.
@@ -101,8 +102,11 @@ For example:
 4. Karma presents the test results in the specified captured browser (opened when *karma start my.conf.js* command was run) and in our command line. Right now we should have **1 FAILED TEST**:
     > Executed 1 of 1 (1 FAILED) ERROR
 5. To see the details of the error, we can open the Debug tool in the browser run by karma, go to browser's dev tools and open console panel.
+&nbsp;
 ![karma-debug](../images/karma/karma-01.png?raw=true "Karma-Jasmine")
+&nbsp;
 ![karma-debug](../images/karma/karma-02.png?raw=true "Karma-Jasmine")
+&nbsp;
     We should see:
     > Uncaught Expected true to be false.
 6. So now, following TDD rules, we should make our test pass. Let's update the test:
