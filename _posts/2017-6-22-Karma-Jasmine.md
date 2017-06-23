@@ -8,7 +8,7 @@ published: true
 Karma is only a test runner, and requires a **testing framework** such as **Jasmine** to plug into it in order to actually run tests.
 &nbsp;
 
-### Installation
+## Installation
 Karma runs on Node.js and requires Node.js with NPM to be installed prior to installing Karma.
 [Installing Node.js and updating npm](https://docs.npmjs.com/getting-started/installing-node)
 
@@ -45,7 +45,7 @@ $ karma
 in command line from anywhere and it will always run the local version.
 &nbsp;
 
-### Configuration
+## Configuration
 In order to serve you well, Karma needs to know about your project in order to test it and this is done via a configuration file.
 
 The configuration file can be generated using karma init filename :
@@ -63,7 +63,7 @@ $ karma start my.conf.js
 ```
 &nbsp;
 
-### Understanding TDD
+## Understanding TDD
 TDD stands for for Behaviour-Driven Development.
 
 Here's TDD in its simpliest form:
@@ -75,7 +75,7 @@ Here's TDD in its simpliest form:
 &nbsp;
 &nbsp;
 
-### Adding tests
+## Adding tests
 After installing Karma we are provided with a *test* directory - this is where we should put all our test specs.
 
 Let's start with the simplest test to see Karma and Jasmin in action.
