@@ -3,10 +3,10 @@ layout: post
 title: TDD with Karma and Jasmine
 published: true
 ---
-
 **Karma** is a type of **test runner** that creates a fake server, and then spins up tests in various browsers using data derived from that fake server.
 
 Karma is only a test runner, and requires a **testing framework** such as **Jasmine** to plug into it in order to actually run tests.
+&nbsp;
 
 ### Installation
 Karma runs on Node.js and requires Node.js with NPM to be installed prior to installing Karma.
@@ -43,26 +43,28 @@ Now instead of writing whole *./node_modules/karma/bin/karma start* Karma can be
 $ karma
 ````
 in command line from anywhere and it will always run the local version.
-
+&nbsp;
 
 ### Configuration
 In order to serve you well, Karma needs to know about your project in order to test it and this is done via a configuration file.
 
-The configuration file can be generated using karma init file_name :
+The configuration file can be generated using karma init filename :
 ```
 $ karma init my.conf.js
 ```
 
-This will open configuration options for e.g. specifying browsers to be checked, source files to run tests on, and testing framework - Jasmine is one of the options here.
+This will open configuration options for e.g. specifying browsers to be checked, source files to run tests on (e.g. \*.js , test/\*.js), and testing framework - Jasmine is one of the options here.
+&nbsp;
 
 ### Starting Karma
 When starting Karma, the configuration file path can be passed in as the first argument.
-````
+```
 $ karma start my.conf.js
 ```
+&nbsp;
 
 ### Understanding TDD
-TDD stands for for Test-Driven Development.
+TDD stands for for Behaviour-Driven Development.
 
 Here's TDD in its simpliest form:
 1. Write your tests
@@ -70,12 +72,13 @@ Here's TDD in its simpliest form:
 3. Make them pass
 4. Refactor
 5. Repeat
+&nbsp;
 
 ### Adding tests
 After installing Karma we are provided with a *test* directory - this is where we should put all our test specs.
 
-Let's start with the simplest hello world test to see Karma and Jasmin in action.
-1. Create hello.js in test folder
+Let's start with the simplest test to see Karma and Jasmin in action.
+1. Create hello.js in test folder.
 2. Make sure your test file - hello.js is included in Karma config file. You can open my.conf.js file and add test/hello.js or test/*.js or **/*.js etc.
 &nbsp;
 For example:
@@ -85,7 +88,7 @@ For example:
          'test/hello.js'
         ],
     ```
-3. Jasmine tests are primarily two parts: describe blocks and it blocks. Following Jasmine syntax and TDD rules, let's write simple test that is going to fail.
+3. Jasmine tests are primarily two parts: **describe blocks** and **it blocks**. Following Jasmine syntax and TDD rules, let's write a simple test that is going to fail.
     ```
     describe ("test", function(){
       it ("should work", function(){
@@ -95,5 +98,22 @@ For example:
     });
     ```
 
-4. Karma presents the test results in the specified captured browser (open when karma start my.conf.js was run) and command line. Right now we should have 1 FAILED TEST.
-5. To see the details of the error, we can open the Debug tool in the browser,
+4. Karma presents the test results in the specified captured browser (opened when *karma start my.conf.js* command was run) and in our command line. Right now we should have **1 FAILED TEST**:
+    > Executed 1 of 1 (1 FAILED) ERROR
+5. To see the details of the error, we can open the Debug tool in the browser run by karma, go to browser's dev tools and open console panel.
+![karma-debug](../images/karma/karma-01.png?raw=true "Karma-Jasmine")
+![karma-debug](../images/karma/karma-02.png?raw=true "Karma-Jasmine")
+    We should see:
+    > Uncaught Expected true to be false.
+6. So now, following TDD rules, we should make our test pass. Let's update the test:
+    ```
+    describe ("test", function(){
+      it ("should work", function(){
+        var test = true;
+        expect(test).toBe(true);
+      });
+    });
+    ```
+7. Karma will now show:
+    > Executed 1 of 1 SUCCESS
+8. Great! We made the test pass and are ready for the next tests to come. Good luck!
