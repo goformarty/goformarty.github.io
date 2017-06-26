@@ -1,3 +1,9 @@
+---
+layout: post
+title: KISS DRY YAGNI
+published: true
+---
+
 There are a lot of buzz words people throw around when talking about good practices in web and software development.
 
 Let’s have a look at KISS, DRY and YAGNI.
