@@ -14,14 +14,14 @@ This one is pretty self-explanatory. The simpler your code is, the easier it wil
 
 The KISS principle doesn’t mean that we cannot use complex solutions when solving complex problems. It means we should use the simplest solution that meets the requirements.
 
-###DRY
+### DRY
 **Don’t Repeat Yourself**
 
 A little bit less self-explanatory than KISS, but still makes sense when clarified. The principle means we must try to maintain the behaviour of a functionality in a single piece of code. When the DRY principle is applied successfully, a modification of any single element of a system does not require a change in other logically unrelated elements.
 
 But we should remember that duplicate code is not a problem if it serves different semantic.
 
-###YAGNI
+### YAGNI
 **You Aren't Gonna Need It**
 
 Sometimes we try to think many steps ahead of the project coding and we add some extra features “just in case we need them” or “we will eventually need them”.
