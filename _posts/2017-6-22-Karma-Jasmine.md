@@ -3,7 +3,7 @@ layout: post
 title: TDD with Karma and Jasmine
 published: true
 ---
-**Karma** is a type of **test runner** that creates a fake server, and then spins up tests in various browsers using data derived from that fake server.
+**Karma** is a type of **test runner** that creates a server, and then spins up tests in various browsers using data derived from that fake server.
 
 Karma is only a test runner, and requires a **testing framework** such as **Jasmine** to plug into it in order to actually run tests.
 &nbsp;
