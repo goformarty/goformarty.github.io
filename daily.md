@@ -19,12 +19,12 @@ It works by **breaking projects down** into little bits of user functionality ca
 
 How Agile is different from the traditional approach?
 
-1. Analysis, design, coding, and testing are continuous activities - as long as there are features to build, and the means to deliver them, these activities continue for the duration of the project.
-2. Development is iterative - that means starting with something really simple, and adding to it incrementally over time.
-3. Planning is adaptive - when reality disagrees with their plans, it can be easier to change plans than reality.
-4. Roles blur - people pitch in and do whatever it takes to make the project successful—regardless of title or role.
-5. Scope can vary - by fixing time, budget, and quality, and being flexible around scope, Agile team's maintain the integrity of their plans, work within their means, and avoid the burnout, drama, and dysfunction traditionally associated with our industry.
-6. Requirements can change - Agile believes the cost of change can be relatively flat, accepts and embraces change even late in the delivery process.
+1. **Analysis, design, coding, and testing are continuous activities** - as long as there are features to build, and the means to deliver them, these activities continue for the duration of the project.
+2. **Development is iterative** - that means starting with something really simple, and adding to it incrementally over time.
+3. **Planning is adaptive** - when reality disagrees with their plans, it can be easier to change plans than reality.
+4. **Roles blur** - people pitch in and do whatever it takes to make the project successful—regardless of title or role.
+5. **Scope can vary** - by fixing time, budget, and quality, and being flexible around scope, Agile team's maintain the integrity of their plans, work within their means, and avoid the burnout, drama, and dysfunction traditionally associated with our industry.
+6. **Requirements can change** - Agile believes the cost of change can be relatively flat, accepts and embraces change even late in the delivery process.
 
 
 
