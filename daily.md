@@ -5,7 +5,8 @@ permalink: /daily/
 published: true
 ---
 
-## 100 words daily
+## 100 Words Daily
+100 words about what I've learned today
 ---
 
 ##### 26-27 June
@@ -15,7 +16,7 @@ JavaScript classes (introduced in ECMAScript 2015) are primarily syntactical sug
 
 Classes (as shipped in Chrome) support prototype-based inheritance, constructors, super calls, instance and static methods.
 
-The class syntax has two components: **class expressions** and class **declarations**.
+The class syntax has two components: **class expressions** and **class declarations**.
 
 #### 1. Class declarations:
 To declare a class, you use the class keyword with the name of the class  
@@ -28,8 +29,7 @@ class Person {
 }
 ```
 
-**! NOTE: Hoisting**
-
+**NOTE:**
 An important difference between function declarations and class declarations is that function declarations are hoisted and class declarations are not.
 ```
 var p = new Persone(); // ReferenceError
@@ -56,4 +56,5 @@ var Person = class Person {
   }
 };
 ```
-**! NOTE:** Class expressions also suffer from the same hoisting issues mentioned for Class declarations.
+**NOTE:**
+Class expressions also suffer from the same hoisting issues mentioned for Class declarations.
