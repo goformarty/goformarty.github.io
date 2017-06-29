@@ -12,10 +12,10 @@ published: true
 ##### 28 June 2017
 ### Class body and method definitions
 
-The body of the class is the part that is in curly brackets { … } . This is where we define class members, such as **methods** or **constructor**.
-Class body is executed in **strict mode**.
-The **constructor** method is a special method for creating and initialising an object created with a class. There can only be **one** special method with the name "constructor" in a class.
-A constructor can use the **super** keyword to call the constructor of a parent class.
+- The body of the class is the part that is in curly brackets { … } . This is where we define class members, such as **methods** or **constructor**.
+- Class body is executed in **strict mode**.
+- The **constructor** method is a special method for creating and initialising an object created with a class. There can only be **one** special method with the name "constructor" in a class.
+- A constructor can use the **super** keyword to call the constructor of a parent class.
 
 ```
 class Cat {
