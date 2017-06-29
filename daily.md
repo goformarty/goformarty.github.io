@@ -9,7 +9,7 @@ published: true
 100 words about what I've learned today
 
 ---
-##### 28 June
+##### 28 June 2017
 ### Class body and method definitions
 
 The body of the class is the part that is in curly brackets { … } . This is where we define class members, such as **methods** or **constructor**.
@@ -27,7 +27,7 @@ class Cat {
 
 ---
 
-##### 26-27 June
+##### 26-27 June 2017
 ### JavaScript classes
 
 JavaScript classes (introduced in ECMAScript 2015) are primarily syntactical sugar over JavaScript's existing prototype-based inheritance. They simply offer a much nicer, cleaner and clearer syntax for creating these objects and dealing with inheritance.
