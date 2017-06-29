@@ -7,6 +7,24 @@ published: true
 
 ## 100 Words Daily
 100 words about what I've learned today
+
+---
+##### 28 June
+### Class body and method definitions
+
+The body of the class is the part that is in curly brackets { … } . This is where we define class members, such as **methods** or **constructor**.
+Class body is executed in **strict mode**.
+The **constructor** method is a special method for creating and initialising an object created with a class. There can only be **one** special method with the name "constructor" in a class.
+A constructor can use the **super** keyword to call the constructor of a parent class.
+
+```
+class Cat {
+  constructor(name, colour) {
+    this.name = name;
+    this.colour = colour;
+  }
+```
+
 ---
 
 ##### 26-27 June
