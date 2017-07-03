@@ -10,6 +10,25 @@ published: true
 
 ---
 
+
+
+##### 30 June 2017
+### What is MAMP?
+
+**MAMP** stands for **Macintosh, Apache, MySQL and PHP**. Basically, it is a free application you can install on your Mac laptop or desktop computer that gives you access to a local Apache server.
+
+Here is a breakdown of the four components of MAMP:
+
+**Macintosh**: an operating system
+**Apache**: an open source web server
+**MySQL**: most widely available relational database in the world (all WordPress sites use MySQL databases)
+**PHP**: server-side scripting language (which WordPress sites run on)
+
+When these four components come together, they create a local web server on your computer only. That means you can build entire websites and see what they would look like online without being connected to the Internet.
+
+
+---
+
 ##### 29 June 2017
 ### What is Agile?
 
