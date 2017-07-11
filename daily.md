@@ -9,6 +9,20 @@ published: true
 100 words about what I've learned today
 
 ---
+##### 4 July 2017
+### What's virtualisation software?
+
+Virtualisation software allows a single host computer to create and run one or more virtual environments.
+
+The entire operating system (the "guest") runs on another OS (the "Host"), whether in a container window, or full-screen, or in what's sometimes called a "seamless" mode, where just one application is run from the "guest".
+
+We can host of multiple virtualised environments within a single OS instance.
+
+Virtual machines do not require specialised, hypervisor-specific hardware. Virtualisation does, however, require more bandwidth, storage and processing capacity than a traditional server or desktop if the physical hardware is going to host multiple running virtual machines. Because VMs on a physical host can consume unequal resource quantities - one may hog the available physical storage, while another stores little - we must balance VMs with available resources.
+
+---
+
+
 ##### 3 July 2017
 ### Why use MAMP?
 
@@ -20,6 +34,8 @@ MAMP has many uses and benefits. It allows you to:
 - Work offline (great for trips on airplanes);
 - Use the local install as a partial backup of your existing site;
 - Develop sites in a secure environment (again, because MAMP sites are not online, it makes it basically impossible to be hacked or have some other kind of security breach);
+
+---
 
 
 ##### 30 June 2017
