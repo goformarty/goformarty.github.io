@@ -9,7 +9,17 @@ published: true
 100 words about what I've learned today
 
 ---
+##### 3 July 2017
+### Why use MAMP?
 
+MAMP has many uses and benefits. It allows you to:
+
+- Develop and design your site locally—no need to worry about “breaking” the live site by testing out a few changes;
+- Build sites you don’t want the world to see (since search engines can’t index your local site);
+- Work in a faster development environment (because it doesn’t rely on an internet connection and communicating with a web server);
+- Work offline (great for trips on airplanes);
+- Use the local install as a partial backup of your existing site;
+- Develop sites in a secure environment (again, because MAMP sites are not online, it makes it basically impossible to be hacked or have some other kind of security breach);
 
 
 ##### 30 June 2017
