@@ -9,6 +9,21 @@ published: true
 100 words about what I've learned today
 
 ---
+
+##### 5 July 2017
+### Why to use Virtual Machine?
+
+Why would you want to run a virtual machine on your computer? Plenty of reasons:
+
+- Web sites that don't play nice with the operating system you're running;
+- You like using one OS, but need just an app or two from another running in their natural environments, a light-on-resources game, or maybe even some uber-cool Linux app;
+- You want to try out some new software, but would rather not chance it mucking up the pretty decent system you've got right now;
+- You're intrigued at the idea of trying out a Linux desktop, but the word "partitioning" doesn't sound like how you want to spend a Saturday afternoon;
+
+---
+
+
+
 ##### 4 July 2017
 ### What's virtualisation software?
 
