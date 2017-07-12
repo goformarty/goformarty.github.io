@@ -14,6 +14,7 @@ The file's name is generally always written in upper case. On Unix-like systems 
 ### What should be included in README?
 
 - **Table of Content** is **optional**, but appreciated for lengthy README files:
+
 ```
 CONTENTS OF THIS FILE
 ---------------------
@@ -27,6 +28,7 @@ CONTENTS OF THIS FILE
  * FAQ
  * Maintainers
 ```
+
 
 - Introduction
 The introduction should consist of a brief paragraph or two that summarises the purpose and function of this project.
