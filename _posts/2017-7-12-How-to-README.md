@@ -6,7 +6,7 @@ published: true
 
 A README is the first file a person should read when encountering a source tree, and it should be written as a very brief, very basic introduction to the software.
 
-### Format
+### Text file
 A form of documentation, it is usually a simple plain text file called READ.ME, README.TXT, README.md (for a text file using markdown markup), README.1ST – or simply README.
 
 ### Use capital letters
