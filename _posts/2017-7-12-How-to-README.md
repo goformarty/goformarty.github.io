@@ -15,19 +15,21 @@ The file's name is generally always written in upper case. On Unix-like systems 
 
 - **Table of Content** is **optional**, but appreciated for lengthy README files:
 
-```
-CONTENTS OF THIS FILE
----------------------
 
- * Introduction
- * Requirements
- * Recommended modules
- * Installation
- * Configuration
- * Troubleshooting
- * FAQ
- * Maintainers
 ```
+  CONTENTS OF THIS FILE
+
+  * Introduction
+  * Requirements
+  * Recommended modules
+  * Installation
+  * Configuration
+  * Troubleshooting
+  * FAQ
+  * Maintainers
+```
+
+
 
 
 - Introduction
