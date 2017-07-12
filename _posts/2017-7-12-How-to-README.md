@@ -33,40 +33,40 @@ The file's name is generally always written in upper case. On Unix-like systems 
 
 
 - Introduction
-The introduction should consist of a brief paragraph or two that summarises the purpose and function of this project.
+  The introduction should consist of a brief paragraph or two that summarises the purpose and function of this project.
 
 - Requirements
-The requirements section should make it clear whether this project requires anything to work (modules, libraries, etc). List all requirements here, including those that follow indirectly from another module, etc. The idea is to inform the users about what is required, so that everything they need can be procured and included in advance of attempting to install the module. If there are no requirements, write "No special requirements".
+  The requirements section should make it clear whether this project requires anything to work (modules, libraries, etc). List all requirements here, including those that follow indirectly from another module, etc. The idea is to inform the users about what is required, so that everything they need can be procured and included in advance of attempting to install the module. If there are no requirements, write "No special requirements".
 
-— **name** of the **projects** and all **sub-modules and libraries**;
-— **descriptions** of all the project, and all sub-modules and libraries;
-— 5-line code snippet on how its used (if it's a library)
+    — **name** of the **projects** and all **sub-modules and libraries**;
+      — **descriptions** of all the project, and all sub-modules and libraries;
+        — 5-line code snippet on how its used (if it's a library)
 
 
 - Installation
 
-The installation section should make it clear how to install the module. However, if the steps to install the module follow the standard instructions - simply provide a link and explain in detail any steps that may diverge from these steps.
+  The installation section should make it clear how to install the module. However, if the steps to install the module follow the standard instructions - simply provide a link and explain in detail any steps that may diverge from these steps.
 
-Consider replacing this section with a standalone INSTALL.txt file if your installation instructions are especially complex.
-	 — instructions to grab the **documentation**;
-	  — instructions to **install, configure, and to run the programs**;
+  Consider replacing this section with a standalone INSTALL.txt file if your installation instructions are especially complex.
+	   — instructions to grab the **documentation**;
+	   — instructions to **install, configure, and to run the programs**;
 
 - Configuration
 
-The configuration section is necessary even when little configuration is required. Use this section to list special notes about the configuration of this module – including but not limited to permissions.
+  The configuration section is necessary even when little configuration is required. Use this section to list special notes about the configuration of this module – including but not limited to permissions.
 
-If the module has little or no configuration, you should use this space to explain how enabling/disabling the module will affect the site.
+  If the module has little or no configuration, you should use this space to explain how enabling/disabling the module will affect the site.
 
 
 - Troubleshooting & FAQ
 
-These sections are optional. If present, they should address questions that are asked frequently in the issue queue (this will save you time in the future). Outline common problems that people encounter along with solutions (links are okay if the steps are long, but it is often helpful to provide a summary since links sometimes go stale).
+  These sections are optional. If present, they should address questions that are asked frequently in the issue queue (this will save you time in the future). Outline common problems that people encounter along with solutions (links are okay if the steps are long, but it is often helpful to provide a summary since links sometimes go stale).
 
 - Bugs
-Instructions to submit bugs, feature requests, submit patches, join mailing list, get announcements, or join the user or dev community in other forms;
+  Instructions to submit bugs, feature requests, submit patches, join mailing list, get announcements, or join the user or dev community in other forms;
 
 - Copying/license
-The section with all the legal notices, **copyright and licensing** information;
+  The section with all the legal notices, **copyright and licensing** information;
 
 
 
