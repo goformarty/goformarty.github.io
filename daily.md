@@ -10,6 +10,8 @@ published: true
 
 ---
 
+---
+
 ##### 5 July 2017
 ### Why to use Virtual Machine?
 
