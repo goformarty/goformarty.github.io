@@ -12,6 +12,47 @@ published: true
 
 ---
 
+##### 10 July 2017
+### JavaScript: multiple cases in Switch statement.
+
+The switch statement evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case.
+
+```
+switch (expression) {
+  case 'A':
+    console.log(‘Great job!’);
+    break;
+  case 'B':
+    console.log(‘Pretty good!’);
+    break;
+  case 'C':
+    console.log(‘It’s OK, but you can do better’);
+    break;
+  case 'D':
+    console.log(‘Not good');
+    break;
+  default:
+    console.log(‘Sorry, we don’t have your results!’);
+}
+```
+
+In JavaScript to assign multiple cases in Switch statement we have to define different case without the break. A matched case will run until a break (or the end of the switch statement) is found.
+```
+switch (expression)
+{
+   case "A":
+   case "B":
+   case "C":
+       console.log(‘Test passed!’);
+       break;
+
+   default:
+       alert(‘Test failed');
+}
+```
+
+---
+
 ##### 5 July 2017
 ### Why to use Virtual Machine?
 
