@@ -12,6 +12,17 @@ published: true
 
 ---
 
+##### 12 July 2017
+### Readme Driven Development
+
+Writing a Readme is absolutely essential to writing good software. By writing your Readme first you give yourself some pretty significant advantages:
+
+- you’re giving yourself a chance to think through the project without the overhead of having to change code every time you change your mind about how something should be organized or what should be included in the Public API;
+- you’ll also find that it’s much easier to write this document at the beginning of the project when your excitement and motivation are at their highest;
+- if you’re working with a team of developers and everyone else on the team has access to this information before you’ve completed the project, then they can confidently start work on other projects that will interface with your code;
+
+---
+
 ##### 10 July 2017
 ### JavaScript: multiple cases in Switch statement.
 
