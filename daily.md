@@ -12,6 +12,21 @@ published: true
 
 ---
 
+
+##### 13 July 2017
+### When not to use global variables in JavaScript?
+
+Global variables can work just fine as long as we are writing all the code ourself, and only for ourself.
+
+But they can pose a problem when we want to make things modular and future-proof.
+
+The primary reason why global variables are discouraged in JavaScript is because in Javascript all code share a single global namespace, also JavaScript has implied global variables ie. variables which are not explicitly declared in local scope are automatically added to global namespace.
+
+In web pages there are very often more than one script used. If they use global variables, they can conflict with each other. The less they add to the global namespace, the smaller the risk is to conflict with other scripts.
+
+
+---
+
 ##### 12 July 2017
 ### Readme Driven Development
 
