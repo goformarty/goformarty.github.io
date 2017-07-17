@@ -12,6 +12,56 @@ published: true
 
 ---
 
+##### 14 July 2017
+### How to reduce global variables in JavaSctipt?
+
+1. One way to reduce global variables is to use the YUI module pattern. The basic idea is to wrap all your code in a function that returns an object which contains functions that needs to be accessed outside your module and assign the return value to a single global variable.
+
+```
+var FOO = (function() {
+    var my_var = 10; //shared variable available only inside your module
+
+    function bar() { // this function not available outside your module
+        alert(my_var); // this function can access my_var
+    }
+
+    return {
+        a_func: function() {
+            alert(my_var); // this function can access my_var
+        },
+        b_func: function() {
+            alert(my_var); // this function can also access my_var
+        }
+    };
+
+})();
+
+```
+
+Now to use functions in your module elsewhere, use FOO.a_func(). This way to resolve global namespace conflicts you only need to change the name of FOO.
+
+2. We can also start with one global: myApp = {}; Everything should be in that. The only exception would be our AJAX library (there are some extreme exceptions like working with JSONP callbacks).
+
+There should be very few properties in myApp. We'll want to hold our application properties in containers such as config or settings.
+
+```
+myApp = {
+    config:{
+        prop:1
+    },
+    settings:{
+        prop:2
+    },
+    widgets:{
+        List: function(props){},
+        Item: function(props){}
+    }
+}
+
+```
+
+
+---
 
 ##### 13 July 2017
 ### When not to use global variables in JavaScript?
