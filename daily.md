@@ -12,7 +12,7 @@ published: true
 
 ---
 
-##### 14 July 2017
+##### 13-14 July 2017
 ### How to reduce global variables in JavaSctipt?
 
 1) One way to reduce global variables is to use the YUI module pattern. The basic idea is to wrap all your code in a function that returns an object which contains functions that needs to be accessed outside your module and assign the return value to a single global variable.
@@ -63,7 +63,7 @@ myApp = {
 
 ---
 
-##### 13 July 2017
+##### 12 July 2017
 ### When not to use global variables in JavaScript?
 
 Global variables can work just fine as long as we are writing all the code ourself, and only for ourself.
@@ -77,7 +77,7 @@ In web pages there are very often more than one script used. If they use global 
 
 ---
 
-##### 12 July 2017
+##### 11 July 2017
 ### Readme Driven Development
 
 Writing a Readme is absolutely essential to writing good software. By writing your Readme first you give yourself some pretty significant advantages:
