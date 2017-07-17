@@ -15,7 +15,7 @@ published: true
 ##### 14 July 2017
 ### How to reduce global variables in JavaSctipt?
 
-1. One way to reduce global variables is to use the YUI module pattern. The basic idea is to wrap all your code in a function that returns an object which contains functions that needs to be accessed outside your module and assign the return value to a single global variable.
+1) One way to reduce global variables is to use the YUI module pattern. The basic idea is to wrap all your code in a function that returns an object which contains functions that needs to be accessed outside your module and assign the return value to a single global variable.
 
 ```
 var FOO = (function() {
@@ -40,7 +40,7 @@ var FOO = (function() {
 
 Now to use functions in your module elsewhere, use FOO.a_func(). This way to resolve global namespace conflicts you only need to change the name of FOO.
 
-2. We can also start with one global: myApp = {}; Everything should be in that. The only exception would be our AJAX library (there are some extreme exceptions like working with JSONP callbacks).
+2) We can also start with one global: myApp = {}; Everything should be in that. The only exception would be our AJAX library (there are some extreme exceptions like working with JSONP callbacks).
 
 There should be very few properties in myApp. We'll want to hold our application properties in containers such as config or settings.
 
@@ -70,7 +70,7 @@ Global variables can work just fine as long as we are writing all the code ourse
 
 But they can pose a problem when we want to make things modular and future-proof.
 
-The primary reason why global variables are discouraged in JavaScript is because in Javascript all code share a single global namespace, also JavaScript has implied global variables ie. variables which are not explicitly declared in local scope are automatically added to global namespace.
+The primary reason why global variables are discouraged in JavaScript is because in Javascript all code shares a single global namespace, also JavaScript has implied global variables ie. variables which are not explicitly declared in local scope are automatically added to global namespace.
 
 In web pages there are very often more than one script used. If they use global variables, they can conflict with each other. The less they add to the global namespace, the smaller the risk is to conflict with other scripts.
 
