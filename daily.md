@@ -12,6 +12,24 @@ published: true
 
 ---
 
+##### 21 July 2017
+### Scrum events - part 5: Team review (show and tell)
+
+
+The team review is a regular meeting which gives team members the opportunity to demonstrate their work. It can also be called a sprint review or a show and tell.
+
+Stakeholders like directors or suppliers might be invited to this meeting to hear more about the completed user stories or other work that has beed done in the last sprint.
+
+The purpose of the “show and tell” is to present the demo that lets different developers demonstrate features. A typical agenda for an individual developer presenting would include:
+ - Describing the purpose of the feature. In terms of sprint goal, user stories, etc.
+ - Showing how the system looks before the change.
+ - Showing how the system looks after the change.
+
+
+The “show and tell” meeting is a great opportunity for the Scrum team to shine together and showcase the results of their hard work.
+
+---
+
 ##### 20 July 2017
 ### Scrum events - part 4: Sprint Retrospective
 
@@ -28,6 +46,7 @@ A basic retro could follow these steps:
 3. The group discusses issues as they come up, or at the end.
 4. The host decides on actions to fix any problems raised, and assigns them to members of the team.
 
+---
 
 ##### 19 July 2017
 ### Scrum events - part 3: Sprint Review
