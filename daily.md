@@ -12,9 +12,19 @@ published: true
 
 ---
 
-##### 17 July 2017
-### Scrum events - part 1:
-Sprint planning
+##### 19 July 2017
+### Scrum events - part 3: Sprint Review
+
+At the end of each sprint a Sprint Review meeting is held. During this meeting the Scrum Team shows which Scrum Product Backlog items they completed (according to the Definition of Done) during the sprint. This might take place in the form of a demo of the new features.
+
+It is important to notice that Backlog items that are not completed shall not be demonstrated. Otherwise this might suggest that these items are finished as well. Instead incomplete items/remaining activities shall be taken back into the Scrum Product Backlog, re-estimated and completed in one of the following sprints.
+
+Participants in the sprint review typically include the Scrum Product Owner, the Scrum Team and the Scrum Master. Additionally management, customers, and developers from other projects might participate as well.
+
+---
+
+##### 18 July 2017
+### Scrum events - part 2: Sprint planning
 
 
 At a sprint planning meeting, the team decides what to work on next and how they’ll do it. This plan is created by the collaborative work of the entire Scrum Team.
