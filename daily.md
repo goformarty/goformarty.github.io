@@ -12,12 +12,28 @@ published: true
 
 ---
 
+##### 17 July 2017
+### Scrum events - part 1:
+Sprint planning
+
+
+At a sprint planning meeting, the team decides what to work on next and how they’ll do it. This plan is created by the collaborative work of the entire Scrum Team.
+
+#### Topic One: What can be done this Sprint?
+The Development Team works to forecast the functionality that will be developed during the Sprint. . The number of items selected from the Product Backlog for the Sprint is solely up to the Development Team. Only the Development Team can assess what it can accomplish over the upcoming Sprint.
+
+#### Topic Two: how will the chosen work get done?
+Work planned for the first days of the Sprint by the Development Team is decomposed by the end of this meeting, often to units of one day or less.
+The Product Backlog items selected for this Sprint plus the plan for delivering them is called the Sprint Backlog.
+
+
+#### Sprint Goal
+Sprint Goal is created during the Sprint Planning meeting. It is an objective set for the Sprint that can be met through the implementation of Product Backlog.
+
+---
 
 ##### 17 July 2017
-### How to reduce global variables in JavaSctipt?
-
-Scrum events - part 1
-Sprint
+### Scrum events - part 1: Sprint
 
 The Sprint is the heart of Scrum. It is a short, consistent cycle no longer than four weeks. The goal is to have an iteration short enough to keep the team focused but long enough to deliver a meaningful increment of work. The iterations enable the team to quickly gather feedback and continue to adapt and improve over time.
 
