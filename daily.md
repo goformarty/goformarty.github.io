@@ -12,6 +12,21 @@ published: true
 
 ---
 
+
+##### 17 July 2017
+### How to reduce global variables in JavaSctipt?
+
+Scrum events - part 1
+Sprint
+
+The Sprint is the heart of Scrum. It is a short, consistent cycle no longer than four weeks. The goal is to have an iteration short enough to keep the team focused but long enough to deliver a meaningful increment of work. The iterations enable the team to quickly gather feedback and continue to adapt and improve over time.
+
+During the Sprint a short daily Standup-Meeting (Daily Scrum Meeting) is held to update the status of the items and to help self-organisation of the team.
+
+Sprints begin and end on fixed dates and changes can be made to the Sprint Backlog that would endanger the Sprint Goal. No additional work should be brought into the Sprint unless the Sprint Goal has been reached or a feature emerges of such high value it must be brought into Sprint.
+
+---
+
 ##### 13-14 July 2017
 ### How to reduce global variables in JavaSctipt?
 
