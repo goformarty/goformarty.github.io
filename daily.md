@@ -12,6 +12,23 @@ published: true
 
 ---
 
+##### 20 July 2017
+### Scrum events - part 4: Sprint Retrospective
+
+Retrospectives, sometimes called ‘retros’, are regular meetings where the whole team talks about what’s going well and what isn’t.
+
+Teams usually hold retros at the end of an iteration (for example a sprint) and use them to talk about the work from that period of time.
+
+The point of a retro is to fix any problems in the team and to make sure you keep doing the things that are working.
+
+A basic retro could follow these steps:
+
+1. The host explains the questions at the beginning and sticks a post-it note to the wall for each question.
+2. Each team member writes down one or more answers for each question on post-it notes and sticks them to the right part of the wall.
+3. The group discusses issues as they come up, or at the end.
+4. The host decides on actions to fix any problems raised, and assigns them to members of the team.
+
+
 ##### 19 July 2017
 ### Scrum events - part 3: Sprint Review
 
