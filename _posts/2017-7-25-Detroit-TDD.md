@@ -4,9 +4,6 @@ title: Detroit school TDD
 published: true
 ---
 
-
-Detroit school TDD (sometimes called Chicago TDD)
-
 If you only hear of one kind of Test-Driven-Development, it is this one.
 
 ### Name
