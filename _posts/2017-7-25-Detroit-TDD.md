@@ -9,7 +9,7 @@ If you only hear of one kind of Test-Driven-Development, it is this one.
 ### Name
 The name comes from the Extreme Programming community in Detroit that developed the main ideas and principles behind it.
 
-It is also sometimes called “Chicago style” or “Classical”, “Traditional” because it laid the foundation of most of the core concepts of TDD and wields significant influence on the common wisdom, documentation, training, and tools that support TDD (and as a result, modern automated software testing).
+It is also sometimes called “Chicago style” or “Classical” / “Traditional” - because it laid the foundation of most of the core concepts of TDD and wields significant influence on the common wisdom, documentation, training, and tools that support TDD (and as a result, modern automated software testing).
 
 ### What is it?
 
@@ -27,7 +27,7 @@ In Detroit-school TDD, a public API is first identified by writing a test agains
 When test-driving an implementation of a program that converts integers into roman numerals, we might start with the simplest test:
 ”roman numeral for 1 is I”
 
-We write the failing test, requiring 1 to be converted to “I”.
+We write a failing test, requiring 1 to be converted to “I”.
 
 The simplest solution might be to return the hardcoded literal value "I". Then we move on to the next easiest failing test.
 
