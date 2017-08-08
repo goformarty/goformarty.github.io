@@ -12,6 +12,34 @@ published: true
 
 ---
 
+##### 31 July 2017
+### Git - how to fix the last commit message?
+
+
+##### Scenario:
+You just ran:
+
+```
+git commit -m "Fixed logn ug #04"
+```
+Your last commit message says "Fixed logn ug #04". You haven't pushed it yet and you want to remove the typos.
+
+##### How to undo?
+
+```
+git commit --ammend
+```
+or
+```
+git commit --ammend "Fixed login bug #04"
+```
+
+##### How it works?
+**git commit --ammend** updates and replaces the most recent commit with a new commit that combines any staged changes with the contents of the previous commit. And if nothing more was staged yet, this just rewrites the previous commit message.
+
+---
+
+
 ##### 21 July 2017
 ### Scrum events - part 5: Team review (show and tell)
 
@@ -352,4 +380,4 @@ var Person = class Person {
 };
 ```
 **NOTE:**
-Class expressions also suffer from the same hoisting issues mentioned for Class declarations.
+TClass expressions also suffer from the same hoisting issues mentioned for Class declarations.
