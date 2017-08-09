@@ -12,12 +12,43 @@ published: true
 
 ---
 
+##### 9 August 2017
+### What is a helper function?
+
+
+We use helper functions to reduce the complexity within the other functions.
+
+For example, if we had a computation that needed to be made frequently within other functions, we could make a helper function that returns the computation and embed that function wherever we need it. 
+
+Essentially, there is little difference between the structure of a helper function and other functions, though they should be small and generic.
+
+```
+function isValid(number) {
+	return (isWithinRange(number) && isEven(number));
+}
+
+// our two helper functions here:
+function isWithinRange(number) {
+return ((number > 0) && (number < 10));
+}
+
+function isEven(number) {
+  return (number%2 === 0);
+}
+
+isValid(4); // true
+isValid(0); // false
+isValid(9); // false
+```
+
+---
+
 ##### 31 July 2017
 ### Git - how to fix the last commit message?
 
 
 ##### Scenario:
-You just ran:
+You've just ran:
 
 ```
 git commit -m "Fixed logn ug #04"
@@ -35,7 +66,7 @@ git commit --ammend "Fixed login bug #04"
 ```
 
 ##### How it works?
-**git commit --ammend** updates and replaces the most recent commit with a new commit that combines any staged changes with the contents of the previous commit. And if nothing more was staged yet, this just rewrites the previous commit message.
+**git commit - - ammend** updates and replaces the most recent commit with a new commit that combines any staged changes with the contents of the previous commit. And if nothing more has been staged yet, this just rewrites the previous commit message.
 
 ---
 
