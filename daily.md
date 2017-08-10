@@ -12,13 +12,48 @@ published: true
 
 ---
 
+##### 10 August 2017
+### How to rename a local and remote branch in git
+
+
+##### Step 1:
+##### Rename your local branch
+
+- If you are on the branch you want to rename: 
+``` 
+git branch -m new-name 
+```
+
+- If you are on a different branch:
+``` 
+git branch -m old-name new-name
+```
+
+The above command will change your branch name, but you have to be very careful using the renamed branch, because it will still refer to the old upstream branch associated with it, if any.
+
+##### Step 2:
+##### Delete the old-name remote branch and push the new-name local branch.
+``` 
+git push origin :old-name new-name
+```
+
+##### Step 3:
+##### Reset the upstream branch for the new-name local branch.
+
+Switch to the branch and run:
+``` 
+git push origin -u new-name
+```
+
+---
+
 ##### 9 August 2017
 ### What is a helper function?
 
 
 We use helper functions to reduce the complexity within the other functions.
 
-For example, if we had a computation that needed to be made frequently within other functions, we could make a helper function that returns the computation and embed that function wherever we need it. 
+
 
 Essentially, there is little difference between the structure of a helper function and other functions, though they should be small and generic.
 
