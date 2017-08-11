@@ -12,6 +12,42 @@ published: true
 
 ---
 
+##### 11 August 2017
+### JavaScript static methods
+
+##### Syntax:
+```
+static methodName() { ... }
+```
+The **static** keyword defines a static method for a class.
+
+##### Description:
+Static method calls are made directly on the class and are not callable on instances of the class. Static methods are often used to create utility functions.
+- We define the function directly on the object, not on its prototype.
+- We never access the **this** keyword inside the function.
+- We return a value from the function.
+
+
+##### Example:
+```
+class Double {
+  static double(n) {
+    if (n === undefined) {
+      n = 1;
+    }
+    return n * 2;
+  }
+}
+
+console.log(Double.double(5));        // 10
+
+const anotherDouble = new Double();
+console.log(anotherDouble.double());
+// 'anotherDouble.double() is not a function’
+```
+
+---
+
 ##### 10 August 2017
 ### How to rename a local and remote branch in git
 
