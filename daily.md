@@ -23,9 +23,9 @@ The **static** keyword defines a static method for a class.
 
 ##### Description:
 Static method calls are made directly on the class and are not callable on instances of the class. Static methods are often used to create utility functions.
-- We define the function directly on the object, not on its prototype.
-- We never access the **this** keyword inside the function.
-- We return a value from the function.
+- We define the function **directly on the object, not on its prototype**.
+- We **never access** the **this** keyword inside the function.
+- We **return a value** from the function.
 
 
 ##### Example:
