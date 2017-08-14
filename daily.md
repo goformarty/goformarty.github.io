@@ -11,6 +11,30 @@ published: true
 ---
 
 ---
+##### 14 August 2017
+### How to name variables, methods and classes?
+
+The name of a variable, function, or class should explain **why it exists**, **what it does** and **how it is used**. If a name requires a comment to understand it, then the name does not reveal its intent and it should be changed.
+```
+const ms;
+```
+
+The name here reveals nothing, and it would be clearer to name our variable for example:
+```
+const metrePerSecond
+```
+
+##### Method names
+
+- Methods should have verb or verb-phrase names, like deletePage or save.
+Accessors and mutators, and their predicates, should be named according to JavaBean standards.
+
+##### Class names
+- Classes and objects should have noun or noun-phrase names, like Customer, WikiPage, Account and AddressParser.
+- But avoid names like Manager, Processor, Data or Info in the name of a class.
+- A class name should not be a verb.
+
+---
 
 ##### 11 August 2017
 ### JavaScript static methods
