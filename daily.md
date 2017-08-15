@@ -38,7 +38,7 @@ In JavaScript, clause 6 of the ECMAScript specification defines the following ty
 - Number;
 - Object.
 
-##### TypeScript’s Basic Types
+##### Basic Types in Typescript
 
 TypeScript exposes nine types for us to work with. Whether you use them or not is up to you: Type annotations are always optional in TypeScript.
 
