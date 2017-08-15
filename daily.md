@@ -11,6 +11,49 @@ published: true
 ---
 
 ---
+
+##### 15 August 2017
+### Data types: JavaScript & Typescript
+
+
+TypeScript is a language that adds object-oriented syntactical sugar to JavaScript.
+
+In JavaScript we don't annotate types, and we can assign values of different types to the same variables through the lifetime of our program.
+
+As far as we're concerned, if an object has the properties and methods we need it to, we don't care what the underlying type is. If it behaves properly, it's good enough. This is sometimes called duck-typing: If it walks like a duck, and it quacks like a duck, it's probably okay if we treat it like a duck.
+
+Typescript however is  statically typed. In a statically typed language, variables, parameters, and members of objects (JavaScript calls them properties) have types that the compiler knows at compile time. The compiler can use that information to perform type checks and to optimize the compiled code.
+
+In general, types are a way of classifying data structures based on the kind of information they can contain, and what you can do with it.
+
+##### Types in JavaScript
+
+In JavaScript, clause 6 of the ECMAScript specification defines the following types:
+
+- Undefined;
+- Null;
+- Boolean;
+- String;
+- Symbol;
+- Number;
+- Object.
+
+##### TypeScript’s Basic Types
+
+TypeScript exposes nine types for us to work with. Whether you use them or not is up to you: Type annotations are always optional in TypeScript.
+
+- Boolean;
+- Number;
+- String;
+- Array;
+- Tuple;
+- Enum;
+- Any;
+- Void;
+- Function.
+
+---
+
 ##### 14 August 2017
 ### How to name variables, methods and classes?
 
