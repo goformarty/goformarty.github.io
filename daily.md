@@ -27,12 +27,13 @@ for(let i = 0; i < array.length; i++) {
 ```
 
 We needed to check **5 pieces of information** to determine what was going on. And this is a single for loop:
-1) var i = 0
-2) i < array.length
-3) i++
-4) array.indexOf(array[i]) === i
-5) models.push(…)
- ##### A Functional Approach:
+1. var i = 0
+2. i < array.length
+3. i++
+4. array.indexOf(array[i]) === i
+5. models.push(…)
+
+##### A Functional Approach:
 This same effect could be written using JavaScript’s built-in filter() method.
 ```
 var uniqueProducts = array.filter(function(elem, i, array) {
