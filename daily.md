@@ -12,6 +12,41 @@ published: true
 
 ---
 
+##### 16 August 2017
+### Why to use map, filter and reduce in Javascript?
+
+In 2011, JavaScript introduced **map, reduce, and filter** as powerful alternatives when translating elements, finding cumulative values, or building subsets based on conditions.
+
+##### Drawbacks of looping
+```
+for(let i = 0; i < array.length; i++) {
+    if(array.indexOf(array[i]) === i) {
+        models.push(array[i]);
+    }
+}
+```
+
+We needed to check **5 pieces of information** to determine what was going on. And this is a single for loop:
+1) var i = 0
+2) i < array.length
+3) i++
+4) array.indexOf(array[i]) === i
+5) models.push(…)
+ ##### A Functional Approach:
+This same effect could be written using JavaScript’s built-in filter() method.
+```
+var uniqueProducts = array.filter(function(elem, i, array) {
+        return array.indexOf(elem) === i;
+    }
+);
+```
+
+Compared to the looping approach above:
+- Checking 1), 2), 3) is unnecessary because filter() does these automatically. - point 4) is the same but without the additional if(…) block
+- point 5) - no need to check what our ***models*** even is, if it already has data or targets specific data types. Filter method solves this problem by not depending on code outside the callbacks, called side-effects
+
+---
+
 ##### 15 August 2017
 ### Data types: JavaScript & Typescript
 
