@@ -12,6 +12,23 @@ published: true
 
 ---
 
+
+##### 17-18 August 2017
+### Object Oriented Programming vs Functional Programming
+
+Both OOP and FP have the shared goal of creating understandable, flexible programs that are free of bugs. But they have two different approaches for how to best create those programs.
+
+In all programs, there are two primary components: the data and the behaviours. 
+OOP says that bringing together data and its associated behaviour in a single location (called an “object”) makes it easier to understand how a program works. 
+
+FP says that data and behaviour are distinctively different things and should be kept separate for clarity.
+
+Object-oriented languages are good when we have a fixed set of operations on things, and as our code evolves, we primarily add new things. This can be accomplished by adding new classes which implement existing methods, and the existing classes are left alone.
+
+Functional languages are good when we have a fixed set of things, and as our code evolves, we primarily add new operations on existing things. This can be accomplished by adding new functions which compute with existing data types and the existing functions are left alone.
+
+---
+
 ##### 16 August 2017
 ### Why to use map, filter and reduce in Javascript?
 
