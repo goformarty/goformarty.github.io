@@ -18,6 +18,10 @@ published: true
 
 Both OOP and FP have the shared goal of creating understandable, flexible programs that are free of bugs. But they have two different approaches for how to best create those programs.
 
+Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which are data structures that contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods.
+
+Functional programming is a programming paradigm, a style of building the structure and elements of computer programs, that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+
 In all programs, there are two primary components: the data and the behaviours. 
 OOP says that bringing together data and its associated behaviour in a single location (called an “object”) makes it easier to understand how a program works. 
 
