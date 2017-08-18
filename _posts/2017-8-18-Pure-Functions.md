@@ -81,8 +81,8 @@ This function now has no hidden inputs (or outputs).
 
 We cannot test impure function in isolation. We can’t just plug into its inputs and check its outputs. We have to break open the code, figure out its hidden causes and effects, and simulate the world it’s supposed to exist in.
 
-    *Example 2b* is much easier to test than *Example 2a*. 
-    Testing different times of day will all be straightforward, because we can pass in any time we like.
+*Example 2b* is much easier to test than *Example 2a*. 
+Testing different times of day will all be straightforward,because we can pass in any time we like.
 
 2. **Debugging**
 
