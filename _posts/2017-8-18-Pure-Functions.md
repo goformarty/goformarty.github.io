@@ -45,6 +45,7 @@ The **hidden inputs** are variables a and b, and the **hidden output** is adding
 
 
 Let’s have a look at another example:
+
 *Example 2a*
 
 ```
@@ -58,6 +59,7 @@ function getCurrentProgram (guide, channel) {
 
 ```
 This function has a hidden input of the current time (new Date()). We can surface this complexity by just being honest about this extra input:
+
 *Example 2b*
 ```
 function getCurrentProgram (guide, channel, date) {
@@ -76,12 +78,14 @@ This function now has no hidden inputs (or outputs).
 
 
 1. **TDD**
+
 We cannot test impure function in isolation. We can’t just plug into its inputs and check its outputs. We have to break open the code, figure out its hidden causes and effects, and simulate the world it’s supposed to exist in.
 
-    Let’s have a look at *Example 2a* and *Example 2b*. 
-    2b It’s vastly easier to test. Testing different times of day will all be straightforward, because we can pass in any time we like.
+    *Example 2b* is much easier to test than *Example 2a*. 
+    Testing different times of day will all be straightforward, because we can pass in any time we like.
 
 2. **Debugging**
+
 This effect is amplified for debugging. If a function doesn’t allow side-effects (or side-causes), we can understand whether it’s correct just by giving it some inputs and checking the outputs. But a function with side-effects there’s no upper-limit to how many other parts of the system we’ll have to consider. When it’s allowed to depend on anything, and cause anything, then the bugs could be anywhere.
 
 
