@@ -11,6 +11,20 @@ published: true
 ---
 
 ---
+##### 22 August 2017
+### Angular 2 Components: Inputs and Outputs
+
+
+In Angular, a component can receive data from its parent as long as the receiving component has specifically said it is willing to receive data. Similarly, components can send data to their parents by trigger an event the parent listens for.
+
+Angular passes the data to the @Component decorator to implement the downward and upward flow of data: “inputs” and “outputs.”
+
+“Inputs” specifies which properties we can set on a component whereas “outputs” identifies the events a component can fire to send information up the hierarchy to its parent.
+
+@Input() and @Output() is Angular’s syntax to to define input properties and output events in a component.
+
+---
+
 ##### 21 August 2017
 ### What is the difference between private, public & protected inheritance?
 
