@@ -11,8 +11,25 @@ published: true
 ---
 
 ---
+
+
 ##### 22 August 2017
-### Angular 2 Components: Inputs and Outputs
+### Bad comments
+
+While comments are neither inherently good or bad, they are frequently used as excuses for poor code or justifications for insufficient decisions. 
+
+A comment is often just an indication of a failure to express intention in code - an apology for not choosing a more clear name, or a more reasonable set of parameters, or for the failure to use explanatory variables and explanatory functions.
+
+Instead of relying on comments to tell the story, we should be relying on the code to tell the story. We can do so by for example naming our functions, variables or classes better or following Single Responsibility Principle
+
+
+
+
+
+---
+
+##### 22 August 2017
+### Angular: Inputs and Outputs
 
 
 In Angular, a component can receive data from its parent as long as the receiving component has specifically said it is willing to receive data. Similarly, components can send data to their parents by trigger an event the parent listens for.
