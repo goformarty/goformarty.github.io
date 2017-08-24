@@ -11,9 +11,51 @@ published: true
 ---
 
 ---
+##### 24-25 August 2017
+### Getter & setter functions in JavaScript
 
+Getters and setters in JavaScript are used for defining computed properties, or accessors. A computed property is one that uses a function to get or set an object value.
 
-##### 22 August 2017
+A getter is a method that gets the value of a specific property. A setter is a method that sets the value of a specific property. 
+
+We can define getters and setters on any predefined core object or user-defined object that supports the addition of new properties. The syntax for defining getters and setters uses the object literal syntax.
+
+The following illustrates how getters and setters could work for a user-defined object o.
+
+```
+var o = {
+  a: 7,
+  get b() { 
+    return this.a + 1;
+  },
+  set c(x) {
+    this.a = x / 2;
+  }
+};
+
+console.log(o.a); // 7
+console.log(o.b); // 8
+o.c = 50;
+console.log(o.a); // 25
+```
+
+The o object's properties are:
+- o.a — a number
+- o.b — a getter that returns o.a plus 1
+- o.c — a setter that sets the value of o.a to half of the value o.c is being set to
+
+When defining getters and setters using object initialisers all we need to do is to prefix a getter method with get and a setter method with set. Of course, **the getter method must not expect a parameter, while the setter method expects exactly one parameter** (the new value to set). For instance:
+```
+var o = {
+  a: 7,
+  get b() { return this.a + 1; },
+  set c(x) { this.a = x / 2; }
+};
+```
+
+---
+
+##### 23 August 2017
 ### Bad comments
 
 While comments are neither inherently good or bad, they are frequently used as excuses for poor code or justifications for insufficient decisions. 
