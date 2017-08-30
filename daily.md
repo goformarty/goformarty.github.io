@@ -11,6 +11,58 @@ published: true
 ---
 
 ---
+##### 29-30 August 2017
+### How to write good functions?
+
+
+- The smaller the better
+
+- A function should only do one thing
+
+- No nested control structure
+
+- Less arguments are better
+  More than three arguments are evil. For example:
+  ```
+  makeCircle(point.center, radius);
+  ```
+  Is better than:
+  ```
+  makeCircle(dx, dy, radius, pi);
+  ```
+- No side effects
+
+  Functions must only do what the name suggests and nothing else.
+
+- Avoid output arguments
+
+  If returning something is not enough then your function is probably doing more than one thing.
+
+  For example
+  ```
+  email.addSignature();
+  ```
+  Is better than:
+  ```
+  addSignature(email);
+  ```
+- Error Handling is one thing
+
+  Throwing exceptions is better than returning different codes dependent on errors.
+
+  Asking for forgiveness is easier than requesting permission. Use try/catch instead of conditions if possible
+
+- Don’t repeat yourself
+
+  Functions must be atomic
+
+***
+
+Mile-long function definitions are an easy way to clutter your code. Normally it’s best to take a look at what’s actually being done. If a function is doing more than its name suggests, then perhaps some of the excess functionality could be split out into its own function. This can often help the rest of your code, too, because it becomes easier to look at. And if smaller functional chunks can be used on their own, then it means other parts of your code can use them without the need to duplicate code.
+
+
+---
+
 ##### 24-25 August 2017
 ### Getter & setter functions in JavaScript
 
