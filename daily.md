@@ -12,6 +12,29 @@ published: true
 
 ---
 ##### 29-30 August 2017
+### Object Calisthenics
+
+
+Originally proposed by Jeff Bay in the ThoughtWorks Anthology, object calisthenics lays out the rules of the game, and then lets you have at it with the programming problem of your choice. 
+
+This way we can implement and apply SOLID design principles, Design Patterns and improve code quality in our software projects.
+
+Jeff Bay wrote down a simple and ready to use list of rules, where if applied makes you more difficult to write bad code:
+
+- One level of indentation per method.
+- Don’t use the ELSE keyword.
+- Wrap all primitives and Strings in classes.
+- First class collections.
+- One dot per line.
+- Don’t abbreviate.
+- Keep all classes less than 50 lines.
+- No classes with more than two instance variables.
+- No getters or setters.
+
+
+
+---
+##### 29-30 August 2017
 ### How to write good functions?
 
 
@@ -49,7 +72,7 @@ published: true
 - Error Handling is one thing
 
   Throwing exceptions is better than returning different codes dependent on errors.
-
+git status
   Asking for forgiveness is easier than requesting permission. Use try/catch instead of conditions if possible
 
 - Don’t repeat yourself
