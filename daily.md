@@ -11,7 +11,7 @@ published: true
 ---
 
 ---
-##### 29-30 August 2017
+##### 31 August 2017
 ### Object Calisthenics
 
 
