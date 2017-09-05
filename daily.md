@@ -13,9 +13,7 @@ published: true
 ---
 
 ##### 5 September 2017
-### What is Express.js ? 
-
-Basic routing with Express.js
+### Basic routing with Express.js
 
 Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
 
@@ -30,7 +28,10 @@ Where:
 - app is an instance of express.
 - METHOD is an HTTP request method, in lowercase.
 - PATH is a path on the server.
-- HANDLER is the function executed when the route is matched.  Example:
+- HANDLER is the function executed when the route is matched.
+
+
+Example:
 Respond with Hello World! on the homepage:
 ```
 app.get('/', function (req, res) {
