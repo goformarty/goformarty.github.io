@@ -11,6 +11,43 @@ published: true
 ---
 
 ---
+
+##### 5 September 2017
+### What is Express.js ? 
+
+Basic routing with Express.js
+
+Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+
+Each route can have one or more handler functions, which are executed when the route is matched.
+
+Route definition takes the following structure:
+```
+app.METHOD(PATH, HANDLER)
+```
+Where:
+
+- app is an instance of express.
+- METHOD is an HTTP request method, in lowercase.
+- PATH is a path on the server.
+- HANDLER is the function executed when the route is matched.  Example:
+Respond with Hello World! on the homepage:
+```
+app.get('/', function (req, res) {
+  res.send('Hello World!')
+})
+```
+
+---
+##### 4 September 2017
+### What is Express.js ? 
+
+Node.js is a platform that allows JavaScript to be used outside the Web Browsers, for creating web and network applications. This means we can create the server and server-side code for an application like most of the other web languages but using JavaScript. 
+
+Express is a framework of Node.js that allows us to use several very useful and powerful features without having to reinvent the wheel, helps organise application's routing and use any templating solution with minimal effort. It also allows for much better organisation of your code. Apart from Express.js, there several others frameworks for Node.js including Meteor.js, Derby.js, Sails.js and  Flatiron.js.
+
+---
+
 ##### 31 August 2017
 ### Object Calisthenics
 
