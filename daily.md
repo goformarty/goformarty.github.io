@@ -31,6 +31,45 @@ Basic Features
 
 ---
 
+##### 6-7 September 2017
+### What is HTTP? What is BEM?
+
+BEM stands for Block Element Modifier and originated at Yandex. It provides a rather strict way to arrange your CSS classes into independent modules. There are a few variations on the idea but the most common one looks like this:
+```
+.block {}
+.block__element {}
+.block--modifier {}
+.block__element--modifier {}
+```
+
+A Block represents an object in your website. For example:
+- a person
+- a login form
+- a menu
+- a search form
+
+An Element is a component within the block that performs a particular function. It should only make sense in the context of its block. For example:
+- a hand
+- a login button
+- a menu item
+- a search input field
+
+A Modifier is how we represent the variations of a block. For example:
+- a tall/short person
+- a condensed login form (e.g. we’re hiding the labels in one version)
+- a menu modified to look differently for a footer or sitemap
+- a search input field with a particular button style
+
+In the example of our menu, the class names could look like this:
+```
+.menu {}
+.menu__item {}
+.menu__item--featured {}
+.menu--footer {}
+```
+
+
+---
 ##### 5 September 2017
 ### Basic routing with Express.js
 
