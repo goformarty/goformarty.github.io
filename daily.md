@@ -23,7 +23,7 @@ represents object spread. It was introduced in ECMAScript 6 and allows an iterab
 
 
 
-#### Use
+#### EXAMPLES:
 ##### Replacing Function.prototype.apply
 
 ```
