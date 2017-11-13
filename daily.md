@@ -11,6 +11,67 @@ published: true
 ---
 
 ---
+
+##### 13-14 November 2017
+### …  spread syntax
+
+Three dots 
+```
+…
+```
+represents object spread. It was introduced in ECMAScript 6 and allows an iterable such as an array expression or string to be expanded in places where **zero or more arguments** (for function calls) **or elements** (for array literals) are expected, or an object expression to be expanded in places where zero or more **key-value pairs** (for object literals) are expected.
+
+
+
+#### Use
+##### Replacing Function.prototype.apply
+
+```
+function myFunction(x, y, z) { }
+var args = [0, 1, 2];
+```
+
+
+```
+// Call the function, passing args
+myFunction.apply(null, args);
+```
+
+**with the spread syntax** we can avoid *apply* and simply call the function with the spread operator before the array:
+
+
+```
+myFunction(...args);
+```
+
+##### Combining arrays
+```
+arr1.push(...arr2) 
+// Adds arr2 items to end of array
+```
+```
+arr1.unshift(...arr2) 
+// Adds arr2 items to beginning of array
+
+```
+
+```
+let arr1 = ['two', 'three'];
+let arr2 = ['one', ...arr1, 'four', ‘five'];
+// ["one", "two", "three", "four", "five"]
+```
+
+
+##### Copying arrays
+```
+let arr = [1,2,3];
+let arr2 = [...arr]; // like arr.slice()
+arr2.push(4) // [1,2,3,4]
+```
+
+
+---
+
 ##### 19-20 September 2017
 ### What is HTTP?
 
