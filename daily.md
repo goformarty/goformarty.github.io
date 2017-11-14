@@ -13,13 +13,13 @@ published: true
 ---
 
 ##### 13-14 November 2017
-### …  spread syntax
+### JavaScript …  spread syntax
 
 Three dots 
 ```
 …
 ```
-represents object spread. It was introduced in ECMAScript 6 and allows an iterable such as an array expression or string to be expanded in places where **zero or more arguments** (for function calls) **or elements** (for array literals) are expected, or an object expression to be expanded in places where zero or more **key-value pairs** (for object literals) are expected.
+represents object spread in JavaScript. It was introduced in ECMAScript 6 and allows an iterable such as an array expression or string to be expanded in places where **zero or more arguments** (for function calls) **or elements** (for array literals) are expected, or an object expression to be expanded in places where zero or more **key-value pairs** (for object literals) are expected.
 
 
 
