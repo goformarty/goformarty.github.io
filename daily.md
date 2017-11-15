@@ -11,6 +11,24 @@ published: true
 ---
 
 ---
+##### 15 November 2017
+### What is a headless browser?
+
+A headless browser is a web browser without a graphical user interface. 
+
+Headless browsers are usually executed via command-line interface and they provide automated control of a web page in an environment similar to popular web browser. In other words headless browser is a browser that accesses web pages but is not presented out to anyone, it’s just used to provide the content of web pages to other programs. 
+
+They are particularly useful for testing web pages, as they are able to render and understand HTML the same way a browser would, including styling elements (e.g. page layout, colour, font selection) and executing JavaScript and AJAX which are usually not available when using other testing methods. For instance a headless browser can click on links and cope with downloads. 
+
+Headless browsers are used for:
+- test automation in modern web applications
+- taking screenshots of web pages
+- running automated tests for JavaScript libraries
+- scraping web sites for data
+- automating interaction of web pages
+
+
+---
 
 ##### 13-14 November 2017
 ### JavaScript …  spread syntax
