@@ -21,7 +21,10 @@ and it's the underlying architectural principle of the web.
 
 REST advocates that *web applications* should use **HTTP** as it was originally envisioned - ***lookups*** should use **GET** requests, and **PUT, POST and DELETE** requests should be used for **mutation, creation, and deletion respectively**.
 
+
+
 **HTTP methods**:
+
 1) HTTP GET
 should be used for all *retrieval*.
 Never used to create, update, or do things = so no hidden side effects(!). GETs can be cached.
