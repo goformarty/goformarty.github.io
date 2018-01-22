@@ -11,6 +11,47 @@ published: true
 ---
 
 ---
+
+##### 15-16 January 2018
+### What is REST and how to use HTTP methods properly?
+
+REST is acronym for
+**RE**presentational **S**tate **T**ransfer 
+and it's the underlying architectural principle of the web. 
+
+REST advocates that *web applications* should use **HTTP** as it was originally envisioned - ***lookups*** should use **GET** requests, and **PUT, POST and DELETE** requests should be used for **mutation, creation, and deletion respectively**.
+
+**HTTP methods**:
+1) HTTP GET
+should be used for all *retrieval*.
+Never used to create, update, or do things = so no hidden side effects(!). GETs can be cached.
+
+2) HTTP POST 
+should be used for *creating*. 
+Not used to update or get a resource, so only use it if something never existed before. 
+If you POST something to a URL, you should be able to GET it from that URL!
+
+3) HTTP PUT
+should be used for *replacing*.
+It overwrites **all** current representations of the target resource with a complete new content. 
+The difference between PUT and POST is that PUT is idempotent: calling it once or several times successively has the same effect (no side effect), where successive identical POST may have additional effects, like adding an intem to the basket several times.
+
+4) HTTP DELETE
+should be use for *deletion*.
+It removes all current representations of the target resource given by a URI.
+
+5) HTTP HEAD 
+same as GET, but transfers the status line and header section only.
+
+6) OPTIONS
+is used to describe the communication options for the target resource.
+
+7) HTTP PATCH
+is used to apply partial modifications to a resource
+
+
+---
+
 ##### 15 November 2017
 ### What is a headless browser?
 
