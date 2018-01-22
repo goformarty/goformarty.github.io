@@ -12,6 +12,20 @@ published: true
 
 ---
 
+##### 17 January 2018
+### REST vs RESTful
+
+REST has it’s own 6 guiding constraints which must be satisfied if an interface needs to be referred as **RESTful**. 
+
+1) **Client-server** - user interface concerns are separated from the data storage concerns;
+2) **Stateless** - no client context is stored on the server, so each request from a client must contain all the information necessary to be understood on the server - session state is kept entirely on the client.
+3) **Cacheable** -  clients can cache responses and the data within a response to a request must be implicitly or explicitly labeled as cacheable or non-cacheable to prevent clients reusing stale or inappropriate data in response to further requests. 
+4) **Layered system** - client cannot tell whether it's connected to end server or to intermediary (intermediary servers can improve scalability by enabling load balancing)
+5) **Uniform Interface** - used to  decouple  client from the implementation of the REST service
+6) **Code on Demand** (optional) - servers are able to temporarily extend or customize the functionality of a client by transferring logic to it that it can execute.
+
+---
+
 ##### 15-16 January 2018
 ### What is REST and how to use HTTP methods properly?
 
@@ -26,30 +40,37 @@ REST advocates that *web applications* should use **HTTP** as it was originally 
 **HTTP methods**:
 
 1) HTTP GET
+
 should be used for all *retrieval*.
 Never used to create, update, or do things = so no hidden side effects(!). GETs can be cached.
 
 2) HTTP POST 
+
 should be used for *creating*. 
 Not used to update or get a resource, so only use it if something never existed before. 
 If you POST something to a URL, you should be able to GET it from that URL!
 
 3) HTTP PUT
+
 should be used for *replacing*.
 It overwrites **all** current representations of the target resource with a complete new content. 
 The difference between PUT and POST is that PUT is idempotent: calling it once or several times successively has the same effect (no side effect), where successive identical POST may have additional effects, like adding an intem to the basket several times.
 
 4) HTTP DELETE
+
 should be use for *deletion*.
 It removes all current representations of the target resource given by a URI.
 
 5) HTTP HEAD 
+
 same as GET, but transfers the status line and header section only.
 
 6) OPTIONS
+
 is used to describe the communication options for the target resource.
 
 7) HTTP PATCH
+
 is used to apply partial modifications to a resource
 
 
